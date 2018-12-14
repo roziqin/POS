@@ -1,0 +1,79 @@
+
+a.list-menu {
+	color: #666;
+	display: block;
+}
+
+.nav-tabs a.nav-item {
+	color: #666;
+}
+
+.card.custom {
+	min-height: 170px;
+	text-align: center;
+}
+
+.card.custom .card-body {
+	padding: 5px;
+}
+
+a .card.custom:hover {
+	background-color: rgba(66, 134, 244, .5);
+}
+
+a .card.warning {
+	background-color:rgba(255,0,0,0.3);
+}
+
+ul.dapur {
+	list-style: none;
+	padding-left: 0px;
+}
+
+li.list-dapur {
+	list-style: none;
+	border-bottom: 2px solid #000000;
+	margin-bottom: 20px;
+	padding: 10px 0px;
+}
+
+.list-dapur table {
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+.list-dapur table td {
+	padding: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.list-dapur table td a,
+table.custom td a {
+	display: block;
+	color: #000000;
+}
+
+.list-dapur table td a:hover {
+	text-decoration: underline;
+}
+
+.list-dapur table tr:nth-child(2n+1) {
+	background-color: rgba(0, 255, 255, .4);
+	color: #000000;
+}
+
+
+.list-dapur table th {
+	background-color: rgba(0,0,0,.5);
+	color: #FFF;
+	padding: 0px 5px;
+}
+
+.list-dapur table.custom th {
+	background-color: rgba(255,0,0,.6);
+}
+.account-item .image > img {
+	margin-top: -8px;
+}
